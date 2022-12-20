@@ -4,6 +4,7 @@ while True:
 
     side = input("Throw the coin and enter head or tail here: ") + "\n"
 
+
     content.append(side)
 
     with open("head_tail.txt", "w") as file:
